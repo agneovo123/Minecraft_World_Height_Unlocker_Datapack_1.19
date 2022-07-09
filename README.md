@@ -7,14 +7,14 @@ Increases the build limit in
 does NOT increase world generation height, only the build limit.
 
 You can change the heights by going into the .zip\data\minecraft\dimension_type\
-and in the .json files changing the 
-  "min_y": -512,
-  "height": 1536,
-  "logical_height": 1536,
-values
+and in the .json files changing the <br>
+  "min_y": -512,<br>
+  "height": 1536,<br>
+  "logical_height": 1536,<br>
+values<br>
   "min_y": -512, is the bottom of the world
   
-  "height": 1536, AND "logical_height": 1536, define the top of the world in this example as 1024 because:
+  "height": 1536, AND "logical_height": 1536, define the top of the world in this example as 1024 because:<br>
   "min_y" + "height" = -512 + 1536 = 1024
 
 "monster_spawn_light_level" and "monster_spawn_block_light_limit" are probably not the right values for the nether
